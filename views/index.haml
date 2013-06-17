@@ -1,0 +1,13 @@
+!!! 5
+%html
+  %head
+    %title Resque Sample Application
+  %body
+    %h1 Add Job
+    %form(method='POST')
+      Run job for
+      %input(type='text' name='seconds')
+      seconds
+      %input(type='submit')
+    %p/
+    %a(href='/resque') Resque status
